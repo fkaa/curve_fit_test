@@ -1,0 +1,15 @@
+[package]
+name = "curve_fit_test"
+version = "0.1.0"
+authors = ["Felix Kaaman <trundmatu@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+gl = "*"
+glutin = "*"
+rg = { git = "https://github.com/fkaa/rg/", rev = "feaea7928bf4f76cf94b4a744d1a5ee02d24901d" }
+
+[dependencies.font-kit]
+git = "https://github.com/fkaa/font-kit/"
+branch = "freetype-fix"
+features = ["loader-freetype-default"]
